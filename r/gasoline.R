@@ -1,4 +1,4 @@
-gasoline = read.csv('../data/gasoline.csv', header=TRUE)
+gasoline = read.csv('./data/gasoline.csv', header=TRUE)
 head(gasoline)
 
 X = as.matrix(gasoline[,-1])

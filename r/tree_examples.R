@@ -7,10 +7,11 @@
 ###################################################
 library(mosaic)
 library(tree)
+library(rpart)
 
 #--------------------------------------------------
 #fit a tree to load_coast data
-load_coast = read.csv('../data/load_coast.csv')
+load_coast = read.csv('./data/load_coast.csv')
 
 #first get a big tree using a small value of mindev
 # small mindev leads to large tree

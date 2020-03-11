@@ -1,5 +1,5 @@
 #read in data and set factors/numerics
-pen = read.table('../data/pen2ref.txt',header=T)
+pen = read.table('./data/pen2ref.txt',header=T)
 facind = c( 1, 3, 5, 7, 9, 19, 20, 21) #which variables are factors (categorical)
 for(i in facind) pen[[i]] = as.factor(pen[[i]])
 
